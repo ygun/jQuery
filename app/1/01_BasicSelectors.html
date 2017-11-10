@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -56,32 +56,47 @@
     </div>
 <script>
 $(function(){
+     (function() {
+         console.log("Task 0");
+     })();
 
     //Ru: Важно! Перед выполнением очередного задания, закомментируйте предыдущее решение.
     //En: Important! Before doing the next task, comment the previous decision.
 
     //Ru: Задание 1. Получить и вывести в консоль количество элементов на странице (.length).
     //En: Task 1. Get and show the number of elements on the page using console.log (.length).
-    console.log($('*').length);
+     (function() {
+         console.log("Task 1");
+         console.log($('*').length);
+     })();
 
     //Ru: Задание 2. Выбрать все элементы на странице и применить к ним красную рамку (.addClass("sel")).
     //En: Task 2. Select all elements on the page and apply red border to them  (.addClass("sel")).
-
+     (function() {
+         console.log("Task 2");
+         //$("*").addClass("sel");
+     })();
 
     //Ru: Задание 3. Выбрать все элементы <div> и применить к ним красную рамку.
     //En: Task 3. Select all elements <div> and apply red border to them.
-
-
+     (function() {
+         console.log("Task 3");
+         //$("div").addClass("sel");
+     })();
 
     //Ru: Задание 4. Выбрать элемент с атрибутом id='p1' и применить красную рамку к нему.
     //En: Task 4. Select the element with attribute id='p1' and apply red border to it.
-
-
+     (function() {
+         console.log("Task 4");
+         //$("#p1").addClass("sel");
+     })();
 
     //Ru: Задание 5. Выбрать элементы с атрибутом class='c1' и применить красную рамку к ним.
     //En: Task 5. Select the elements with attribute class='c1' and apply red border to them.
-
-
+     (function() {
+         console.log("Task 5");
+         $(".c1").addClass("sel");
+     })();
 
     //Ru: Задание 6. Выбрать все элементы <span> с атрибутом class='c1' и применить красную рамку к ним.
     //En: Task 6. Select all elements <span> with attribute class='c1' and apply red border to them.
